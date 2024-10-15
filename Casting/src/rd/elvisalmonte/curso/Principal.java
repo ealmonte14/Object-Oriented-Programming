@@ -2,9 +2,14 @@ package rd.elvisalmonte.curso;
 
 public class Principal {
     public static void main(String[] args) {
-        Aguila ave1 = new Aguila("Aguila", 2);
-        System.out.println(ave1.nombre);
-        System.out.println(ave1.edad);
+        Ave ave1 = new AguilaReal("Aguila", 2);
+        Ave av2 = new AguilaCalva("Aguila Calva",3);
+        Ave ave3 = new Pato("Pato",3);
         ave1.volar();
+        av2.volar();
+        ave3.volar();
+
+
+
     }
 }

@@ -5,4 +5,9 @@ public class Pato extends Ave{
         super(nombre, edad);
     }
 
+    @Override
+    void volar(){
+        System.out.println("Puedo volar como Pato");
+    }
+
 }

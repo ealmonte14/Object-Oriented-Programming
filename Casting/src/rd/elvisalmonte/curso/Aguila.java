@@ -7,7 +7,7 @@ public class Aguila extends Ave{
 
     @Override
     void volar(){
-        System.out.println("No puedo volar como Aguila");
+        System.out.println("puedo volar como Aguila");
     }
 
 }
