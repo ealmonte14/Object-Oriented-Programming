@@ -2,12 +2,17 @@ package rd.elvisalmonte.curso;
 
 public class Principal {
     public static void main(String[] args) {
-        Ave ave1 = new AguilaReal("Aguila", 2);
-        Ave av2 = new AguilaCalva("Aguila Calva",3);
-        Ave ave3 = new Pato("Pato",3);
-        ave1.volar();
-        av2.volar();
-        ave3.volar();
+         AguilaReal ave1 = new AguilaReal("Aguila Real");
+         Aguila ave2 = ave1;
+         Ave ave3 = ave2;
+         ave3.volar();
+
+         Ave ave4 = new AguilaCalva("Aguila Calva");
+         ave4.volar();
+         Aguila ave5 = (Aguila) ave4;
+         ave5.volar();
+         AguilaCalva av6 = (AguilaCalva) ave5;
+         av6.volar();
 
 
 

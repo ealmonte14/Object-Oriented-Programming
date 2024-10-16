@@ -1,8 +1,8 @@
 package rd.elvisalmonte.curso;
 
 public class AguilaCalva extends Aguila{
-    public AguilaCalva(String nombre, int edad) {
-        super(nombre, edad);
+    public AguilaCalva(String nombre) {
+        super(nombre);
     }
     @Override
     void volar(){

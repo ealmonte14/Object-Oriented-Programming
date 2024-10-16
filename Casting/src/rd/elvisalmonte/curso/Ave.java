@@ -2,11 +2,11 @@ package rd.elvisalmonte.curso;
 
 public class Ave {
     String nombre;
-    int edad;
 
-    public Ave(String nombre, int edad) {
+
+    public Ave(String nombre) {
         this.nombre = nombre;
-        this.edad = edad;
+
     }
 
     void volar(){
